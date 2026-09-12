@@ -3,15 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="แฟ้มสะสมผลงาน (Portfolio)">
-  <title>แฟ้มสะสมผลงาน // PORTFOLIO</title>
-  
-  <!-- เชื่อมต่อไฟล์สไตล์ CSS -->
+  <meta name="description" content="แฟ้มสะสมผลงาน (Portfolio) - หน้าปก">
+  <title>หน้าปก // PORTFOLIO</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <!-- ประกายและอิโมจิลอยสีสันสดใส (Sparkles background) -->
+  <!-- ประกายและอิโมจิลอยสีสันสดใส -->
   <div class="sparkles-container">
     <div class="sparkle s1">💊</div>
     <div class="sparkle s2">💜</div>
@@ -23,20 +21,20 @@
     <div class="sparkle s8">🧬</div>
   </div>
 
-  <!-- แถบเมนูลอยแบบโปร่งแสง (Navbar) -->
+  <!-- แถบเมนู -->
   <nav class="navbar">
     <div class="nav-container">
-      <a href="#cover">หน้าปก</a>
-      <a href="#introduction">คำนำ</a>
-      <a href="#profile">ประวัติส่วนตัว</a>
-      <a href="#education">ประวัติการศึกษา</a>
-      <a href="#activities">กิจกรรมที่เข้าร่วม</a>
-      <a href="#future-study">ความสนใจศึกษาต่อ</a>
-      <a href="#skills">ทักษะ</a>
+      <a href="index.html" class="active">หน้าปก</a>
+      <a href="introduction.html">คำนำ</a>
+      <a href="profile.html">ประวัติส่วนตัว</a>
+      <a href="education.html">ประวัติการศึกษา</a>
+      <a href="activities.html">กิจกรรมที่เข้าร่วม</a>
+      <a href="future-study.html">ความสนใจศึกษาต่อ</a>
+      <a href="skills.html">ทักษะ</a>
     </div>
   </nav>
 
-  <!-- 1. หน้าปก (Cover Layout แบบ 2 ฝั่ง ข้อมูลด้านซ้าย - รูปด้านขวา) -->
+  <!-- หน้าปก -->
   <header id="cover">
     <div class="cover-container">
       <div class="cover-text-side">
@@ -57,173 +55,6 @@
     </div>
   </header>
 
-  <main class="container">
-
-    <!-- 2. คำนำ (Introduction) -->
-    <section id="introduction">
-      <h2>คำนำ 📑</h2>
-      <div class="section-card flex-card">
-        <div class="card-text">
-          <p>ข้าพเจ้าได้มีโอกาสเข้าร่วมการอบรมและกิจกรรมต่าง ๆ ที่เกี่ยวข้องกับวิทยาศาสตร์และสุขภาพ ซึ่งทำให้ได้เรียนรู้ทั้งความรู้ทางทฤษฎีและการลงมือปฏิบัติจริง ได้ฝึกทักษะการคิดวิเคราะห์ การสังเกต การแก้ไขปัญหา และการทำงานอย่างเป็นระบบ</p>
-          <p>จากการเข้าร่วมกิจกรรมเหล่านี้ ทำให้ข้าพเจ้าเห็นความสำคัญของวิทยาศาสตร์ที่สามารถนำมาประยุกต์ใช้ในชีวิตประจำวันและด้านสุขภาพได้ อีกทั้งยังช่วยสร้างแรงบันดาลใจและความสนใจในการศึกษาต่อด้านเภสัชศาสตร์ ข้าพเจ้าจึงตั้งใจที่จะพัฒนาความรู้และทักษะทางวิทยาศาสตร์อย่างต่อเนื่อง เพื่อนำไปต่อยอดในการเรียนและประกอบวิชาชีพในอนาคต</p>
-          <div class="signature-box">
-            <p><strong>จัดทำโดย:</strong> วณิดา ลอออุดมพงศ์ </p>
-          </div>
-        </div>
-        <div class="card-media">
-          <div class="img-box">
-            <img src="IMG_2352.jpeg" alt="คำนำ" class="portfolio-img">
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- 3. ประวัติส่วนตัว (Profile) -->
-    <section id="profile">
-      <h2>ประวัติส่วนตัว 👤</h2>
-      <div class="section-card flex-card reverse-mobile">
-        <div class="card-media">
-          <div class="img-box">
-            <img src="IMG_2351.jpeg" alt="ประวัติส่วนตัว" class="portfolio-img">
-          </div>
-        </div>
-        <div class="card-text">
-          <ul class="info-list">
-            <li><strong>ชื่อ-นามสกุล:</strong> นางสาววณิดา ลอออุดมพงศ์</li>
-            <li><strong>ชื่อเล่น:</strong> หลิว </li>
-            <li><strong>วัน/เดือน/ปีเกิด:</strong> 27 เมษายน 2552 </li>
-            <li><strong>หมู่เลือด:</strong> B </li>
-            <li><strong>สัญชาติ:</strong> ไทย </li>
-            <li><strong>งานอดิเรก:</strong> ดูซีรีส์ , อ่านนิยาย , ฟังเพลง </li>
-          </ul>
-        </div>
-      </div>
-    </section>
-
-    <!-- 4. ประวัติการศึกษา (Education) -->
-    <section id="education">
-      <h2>ประวัติการศึกษา 🎓</h2>
-      <div class="section-card flex-card">
-        <div class="card-text">
-          <ul class="edu-info-list">
-            <li><strong>ระดับอนุบาล:</strong> โรงเรียนพิทยรังสี </li>
-            <li><strong>ระดับประถมศึกษาตอนต้น:</strong> โรงเรียนวัฒนดรุณวิทย์ </li>
-            <li><strong>ระดับประถมศึกษาตอนปลาย:</strong> โรงเรียนวัฒนดรุณวิทย์ </li>
-            <li><strong>ระดับมัธยมศึกษาตอนต้น:</strong> โรงเรียนบ้านบึง “อุตสาหกรรมนุเคราะห์” </li>
-            <li><strong>ระดับมัธยมศึกษาตอนปลาย:</strong> โรงเรียนบ้านบึง “อุตสาหกรรมนุเคราะห์” </li>
-          </ul>
-        </div>
-        <div class="card-media">
-          <div class="img-box">
-            <img src="IMG_2332.jpeg" alt="ประวัติการศึกษา" class="portfolio-img">
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- 5. กิจกรรมที่เข้าร่วม (4 กิจกรรม) -->
-    <section id="activities">
-      <h2>กิจกรรมที่เข้าร่วม 🏆</h2>
-      <div class="gallery-grid-2x2">
-        
-        <!-- กิจกรรมที่ 1 -->
-        <div class="gallery-card">
-          <div class="img-box">
-            <img src="IMG_2333.jpeg" alt="เปิดบ้านเภสัช ม.บูรพา" class="portfolio-img">
-          </div>
-          <div class="gallery-info">
-            <p class="activity-title"> ได้ผ่านการคัดเลือกเปิดบ้านเภสัช ม.บูรพา ครั้งที่ 11 ประจำปี 2568</p>
-            <p class="activity-desc">การได้มาที่ Open House ในครั้งนี้ ทำให้ดิฉันได้เรียนรู้จริงผ่านการทำยาดมสมุนไพร การทำลิปบาล์ม เจลแอลกอฮอล์ การนับเม็ดยา และทำแล็ปการไทเทรต</p>
-          </div>
-        </div>
-
-        <!-- กิจกรรมที่ 2 -->
-        <div class="gallery-card">
-          <div class="img-box">
-            <img src="IMG_2336.jpeg" alt="อบรมปฐมพยาบาลฉุกเฉิน" class="portfolio-img">
-          </div>
-          <div class="gallery-info">
-            <p class="activity-title">  ได้เข้าร่วมอบรมเชิงปฏิบัติการ การปฐมพยาบาลฉุกเฉินและการกู้ชีพขั้นพื้นฐาน</p>
-            <p class="activity-desc">ทำให้ดิฉันได้เรียนรู้การช่วยชีวิตเบื้องต้น เช่น การปั๊มหัวใจที่ถูกต้อง (CPR) การใช้เครื่องกระตุกหัวใจไฟฟ้าอัตโนมัติ (AED) และการช่วยเหลือผู้ที่มีอาหารติดคอ</p>
-          </div>
-        </div>
-
-        <!-- กิจกรรมที่ 3 -->
-        <div class="gallery-card">
-          <div class="img-box">
-            <img src="IMG_2342.jpeg" alt="แข่งตอบปัญหาวิทยาศาสตร์สุขภาพ" class="portfolio-img">
-          </div>
-          <div class="gallery-info">
-            <p class="activity-title"> ได้เข้าร่วมแข่งขันตอบปัญหาวิทยาศาสตร์สุขภาพและเภสัชกรรม ประจำปี 2568</p>
-            <p class="activity-desc">ทำให้ดิฉันได้ความรู้เกี่ยวกับเภสัชกรรมเพิ่มมากขึ้น เช่น หลักการจ่ายยา การแปลผลตรวจทางห้องปฏิบัติการ การให้คำปรึกษา และการสื่อสาร</p>
-          </div>
-        </div>
-
-        <!-- กิจกรรมที่ 4 -->
-        <div class="gallery-card">
-          <div class="img-box">
-            <img src="IMG_2355.jpeg" alt="ฝึกประสบการณ์วิชาชีพ" class="portfolio-img">
-          </div>
-          <div class="gallery-info">
-            <p class="activity-title"> ได้ผ่านการฝึกประสบการณ์วิชาชีพ ที่กลุ่มงานการพยาบาล โรงพยาบาลบ้านบึง</p>
-            <p class="activity-desc">ทำให้ได้เรียนรู้การทำงานอย่างมีระเบียบวินัย ความรับผิดชอบ และความเอาใจใส่ต่อผู้อื่น เสริมสร้างคุณธรรม จริยธรรม ตลอดจนตระหนักถึงคุณค่าของการเสียสละและการบำเพ็ญประโยชน์เพื่อสังคม</p>
-          </div>
-        </div>
-
-      </div>
-    </section>
-
-    <!-- 6. ความสนใจในด้านการศึกษาต่อ (Future Study) -->
-    <section id="future-study">
-      <h2>ความสนใจในด้านการศึกษาต่อ </h2>
-      
-      <div class="section-card future-wrapper">
-        <div class="future-intro">
-          <p>จากประสบการณ์และความสนใจด้านวิทยาศาสตร์และสุขภาพ ทำให้ข้าพเจ้าเกิดความสนใจในศาสตร์ด้านเภสัชกรรม เพราะเป็นศาสตร์ที่เกี่ยวข้องกับการใช้ยา การดูแลสุขภาพ และการช่วยเหลือผู้คนอย่างถูกต้องและปลอดภัย ข้าพเจ้าจึงเลือกศึกษาต่อในคณะเภสัชศาสตร์ ด้วยความตั้งใจที่จะเรียนรู้และพัฒนาความรู้เกี่ยวกับยาและการดูแลผู้ป่วยอย่างเต็มศักยภาพ</p>
-          <p>ข้าพเจ้าสนใจบทบาทของเภสัชกรที่ไม่ได้มีหน้าที่เพียงจ่ายยา แต่ยังให้คำแนะนำเกี่ยวกับการใช้ยา การป้องกันโรค และการดูแลสุขภาพ เพื่อให้ผู้คนสามารถดูแลตนเองได้อย่างถูกต้อง ข้าพเจ้าจึงมุ่งมั่นที่จะศึกษาหาความรู้ ฝึกฝนทักษะ และพัฒนาตนเองอยู่เสมอ เพื่อเติบโตเป็นเภสัชกรที่มีความรู้ ความรับผิดชอบ มีจริยธรรม และสามารถนำความรู้ไปใช้ให้เกิดประโยชน์ต่อผู้อื่นและสังคมได้อย่างเต็มความสามารถ</p>
-        </div>
-
-        <div class="uni-grid">
-          <!-- มหาวิทยาลัยที่ 1 -->
-          <div class="uni-card">
-            <div class="img-box">
-              <img src="ไม่มีชื่อ 202_20260904135551.png" alt="มหาวิทยาลัยมหิดล" class="portfolio-img">
-            </div>
-            <div class="uni-info">
-              <span class="badge highlight">เป้าหมายทางการศึกษา </span>
-              <h4 class="faculty-name">คณะเภสัชศาสตร์ มหาวิทยาลัยมหิดล</h4>
-            </div>
-          </div>
-
-          <!-- มหาวิทยาลัยที่ 2 -->
-          <div class="uni-card">
-            <div class="img-box">
-              <img src="ไม่มีชื่อ 202_20260904140915.png" alt="มหาวิทยาลัยเกษตรศาสตร์" class="portfolio-img">
-            </div>
-            <div class="uni-info">
-              <span class="badge highlight">เป้าหมายทางการศึกษา </span>
-              <h4 class="faculty-name">คณะเภสัชศาสตร์ มหาวิทยาลัยเกษตรศาสตร์</h4>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- 7. ความสามารถพิเศษ / ทักษะ -->
-    <section id="skills">
-      <h2>ทักษะ </h2>
-      <div class="section-card">
-        <ul class="skills-tags-list">
-          <li class="tag-red"> การทำงานเป็นทีม</li>
-          <li class="tag-purple">ความกล้าแสดงออก</li>
-          <li class="tag-blue"> การเป็นผู้นำ</li>
-        </ul>
-      </div>
-    </section>
-
-  </main>
-
-  <!-- ส่วนท้าย (Footer / ช่องทางการติดต่อ) -->
   <footer>
     <div class="footer-content">
       <h3>ช่องทางการติดต่อ </h3>
@@ -235,7 +66,6 @@
     </div>
   </footer>
 
-  <!-- เชื่อมต่อไฟล์ JavaScript -->
   <script src="script.js"></script>
 </body>
 </html>
